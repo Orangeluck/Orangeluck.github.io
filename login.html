@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="October CMS">
+<link rel="icon" type="image/png" href="https://octobercms.com/themes/website/assets/images/october.png" />
+<title>用户-学生</title>
+
+<link rel="stylesheet" href="css/style_0.css">
+        <link href="css/style_1.css" rel="stylesheet">  
+        <link rel="stylesheet" href="css/style_2.css">
+<link href="css/style_3.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style_4.css">
+        <link href="css/style_5.css" rel="stylesheet">       </head>
+
+    <body class="account" >
+        
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45957034-1', 'auto');
+  ga('require', 'ec');
+
+  
+  
+  
+  
+  ga('send', 'pageview');
+
+</script>
+
+
+        <div class="page-content">
+            <div id="site-heading">                 <div class="global-announcement">
+    <a href="index2.html">上海对外经贸大学统计与信息学院</a>
+</div>                <div class="navbar navbar-default main-menu" role="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hidden-sm" href="index2.html"><img  height="60" src="img/SUIBE.jpg" alt="OctoberCMS Logo" /></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+            <li class="home hidden-lg hidden-md hidden-xs">
+             <a
+                                            href="index2.html"
+                                            >Home
+                                        </a>
+
+                                    </li>
+
+                                    <li class="features">
+                                        <a
+                                            href="news.html"
+                                            >首页
+                                        </a>
+
+                                    </li>
+
+                                    <li class="docs">
+                                        <a
+                                            href="http://www.suibe.edu.cn/txxy/5670/list.htm"
+                                            >学院概况
+                                        </a>
+
+                                    </li>
+
+                                    <li class="support">
+                                        <a
+                                            href="http://www.suibe.edu.cn/txxy/5671/list.htm"
+                                            >人才培养
+                                        </a>
+
+                                    </li>
+
+                                    <li class="blog">
+                                        <a
+                                            href="http://www.suibe.edu.cn/txxy/5672/list.htm"
+                                            >学术科研
+                                        </a>
+
+                                    </li>
+
+                                    <li class="separator"></li>
+                                    <li class="plugins">
+                                        <a
+                                            href="http://www.suibe.edu.cn/txxy/5673/list.htm"
+                                            >师资队伍
+                                        </a>
+
+                                    </li>
+
+                                    <li class="themes">
+                                        <a
+                                            href="http://www.suibe.edu.cn/txxy/5674/list.htm"
+                                            >学生工作
+                                        </a>
+
+                                    </li>
+
+                                    <li class="separator"></li>
+                                    <li class="partners">
+                                        <a
+                                            href="http://www.suibe.edu.cn/txxy/5675/list.htm"
+                                            >党务工作
+                                        </a>
+                    </li>
+
+            </ul>
+                <ul class="nav navbar-nav navbar-right" id="main-menu-account">
+    <li class="dropdown active">
+    <a href="#register" class="dropdown-toggle" data-toggle="dropdown">
+        用户 <i class="icon-chevron-down"></i>
+    </a>
+    <ul class="dropdown-menu">
+                    <!-- Guest-->
+            <li><a href="login.html">登陆</a></li>
+            <li><a href="#register" data-toggle="tab">注册</a></li>
+            </ul>
+</li>
+
+</ul>            </div>
+        </div>
+    </div>
+</div>                            </div>
+
+            <div class="standard-body-margins">
+    <div class="container">
+        
+    </div>
+
+    <div class="tab-content">
+        <div class="tab-pane active" id="signin">
+            <div class="container account-centered-block login">
+                <div class="row">
+                    <div class="col-lg-12 centered-block">
+
+    <p class="text-center hero standard-bottom-margin">欢迎回来！登录继续我的帐户。</p>
+
+    <form data-request="account::onSignin">
+        <div class="row grid-bottom-border standard-bottom-padding standard-bottom-margin">
+            <div class="col-sm-5">
+                <div class="form-group">
+                    <label for="signInEmail">电子邮箱</label>
+                    <input name="email" data-login-control-avatar-email="#login-gravatar" data-default-focus type="email" class="form-control" id="signInEmail" placeholder="">
+                </div>
+            </div>
+
+            <div class="col-sm-5">
+                <div class="form-group">
+                    <label for="signInPassword">密码</label>
+                    <input name="password" type="password" class="form-control" id="signInPassword" placeholder="">
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <input
+                    type="submit"
+                    class="btn btn-primary vertical-align-with-input"
+                    data-disable-on-ajax-start
+                    data-enable-on-ajax-always
+                    value="登陆">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-border-right-md keep-right-padding">
+                <p class="secondary-text no-bottom-margin-md">
+                    还没有账户吗？ <a href="#register" data-toggle="tab">注册用户</a> 
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="secondary-text no-bottom-margin-md"><a href="https://octobercms.com/account/reset">忘记密码？</a></p>
+            </div>
+        </div>
+    </form>
+</div>                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane " id="register">
+            <div class="container account-centered-block register">
+                <div class="row">
+                    <div class="col-lg-12 centered-block">
+
+    <p class="text-center hero standard-bottom-margin">欢迎来到上海对外经贸大学！</p>
+
+    <form data-request="account::onRegister">
+        <div class="row grid-bottom-border standard-bottom-padding standard-bottom-margin">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="registerName">全名</label>
+                    <input name="name" type="text" class="form-control" id="registerEmail" data-default-focus placeholder="">
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="signInEmail">电子邮箱</label>
+                    <input name="email" data-login-control-avatar-email="#login-gravatar-register" type="email" class="form-control" id="signInEmail" placeholder="">
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="signInPassword">密码</label>
+                    <input name="password" type="password" class="form-control" id="signInPassword" placeholder="">
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <input
+                    type="submit" 
+                    class="btn btn-primary vertical-align-with-input btn-block inline-block-sm-force"
+                    data-disable-on-ajax-start
+                    data-enable-on-ajax-always
+                    value="注册">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-border-right-md keep-right-padding">
+                <p class="secondary-text no-bottom-margin-md">
+                    通过同意注册的<a href="https://octobercms.com/help/terms/marketplace" target="_blank">条款</a>.
+                    注册后不久你会收到一封确认邮件。请确保使用消息中的链接验证该帐户。未经验证的帐户将在将来自动禁用。
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="secondary-text no-bottom-margin-md"><a href="#signin" data-toggle="tab">已有邮箱？</a></p>
+            </div>
+        </div>
+    </form>
+</div>                </div>
+            </div>
+        </div>
+    </div>
+</div>        </div>
+        <div class="site-footer fixed-sidebar-bottom-border" id="site-footer">
+ 
+
+    <div class="menu">
+        <div class="container">
+            
+                           <p class="support" style="padding-right: 5px; padding-left: 5px;">
+                    <span id="topnews"><a href="index2.html">首页 </a>|<a href="index2.html"> 学院概况 </a>|<a href="index2.html"> 人才培养 </a>|				<a href="index2.html">学术科研 </a>|<a href="index2.html"> 师资队伍 </a>|<a href="index2.html"> 学生工作 </a>|<a href="index2.html"> 党务工作 </a>|<a href="index2.html"> 招生就业</a></span>
+                </p>
+                <p>
+                    <span class="addr"></span><span class="tel">School of Business Information, Shanghai University of International Business and Economics All Rights Reserved</span><span class="email"></span>
+                </p>
+                <p>
+                    <span class="copyright"></span><span class="support">版权所有@ 2016上海对外经贸大学统计与信息学院</span>
+                </p>
+
+            
+
+                    </div>
+    </div>
+</div>
+
+
+        <script type="text/template" data-template="global-notifications-popover-template">
+            <div class="popover global-notifications" role="tooltip">
+            <div class="arrow"></div>
+            <div class="popover-header">
+            <h4 class="popover-title"></h4>
+            <button type="button" class="close" id="global-notifications-close-button" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <a href="javascript:;" class="pull-right text-muted mark-all-read" id="global-notifications-mark-all-read">Mark all as read</a>
+            </div>
+            <form class="global-notifications-container loading" id="global-notifications-container">
+            </form>
+            </div>
+        </script>
+        <script src="http://octobercms.com/combine/a03c90a430fd2c30709e805b090bf2c7-1512625687"></script>
+        <script src="http://octobercms.com/combine/a71ff69ef6ea387092cb129e5de83fd0-1467497107"></script>
+
+    </body>
+</html>

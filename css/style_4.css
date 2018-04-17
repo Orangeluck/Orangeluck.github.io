@@ -1,0 +1,42 @@
+[data-sticky].affix{top:0;z-index:1}
+[data-sticky].affix-bottom{position:absolute}
+@media (max-width:991px){[data-sticky]{width:auto !important}
+[data-sticky].affix,[data-sticky].affix-bottom{position:relative !important}
+}
+.col-md-2 [data-sticky]{width:165px}
+.col-md-3 [data-sticky]{width:262px}
+@media (max-width:1199px){.col-md-3 [data-sticky]{width:214px}
+}
+ul.sidebar-toc{padding:0;margin:40px 0;list-style:none}
+ul.sidebar-toc li{padding:0;margin:0;line-height:230%}
+ul.sidebar-toc li a{color:#798d8d;text-decoration:none}
+ul.sidebar-toc li.active{position:relative}
+ul.sidebar-toc li.active:after{content:'';display:block;width:0;height:0;border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:10px solid #d5dde0;position:absolute;right:-25px;top:9px;z-index:1}
+ul.sidebar-toc li.active:before{content:'';display:block;width:0;height:0;border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:10px solid #ffffff;position:absolute;right:-24px;top:9px;z-index:2}
+ul.sidebar-toc li.active a{color:#213f50}
+@media (max-width:991px){ul.sidebar-toc li.active:before,ul.sidebar-toc li.active:after{display:none}
+}
+.article.blog{position:relative}
+.article.blog p.header-image-right{position:absolute;top:-185px;right:0}
+h3.blog-article-header{margin-bottom:5px !important}
+h3.blog-article-header a{font-size:30px;text-decoration:none}
+.article.blog p.excerpt,.article.blog div.content{margin-bottom:40px}
+.article.blog h2.post-title{border-bottom:none;font-size:36px;margin-bottom:5px}
+.article.blog ul.blog-product-list{list-style:none;padding:0}
+.article.blog ul.blog-product-list img{float:left;position:relative;top:5px}
+.article.blog ul.blog-product-list p,.article.blog ul.blog-product-list h4{margin-left:90px}
+.article.blog ul.blog-product-list h4{font-size:20px}
+.social-share-buttons{margin:40px 0}
+.social-share-buttons div.fb-like{margin-top:-2px;margin-right:5px}
+.social-share-buttons div.fb-like,.social-share-buttons iframe{vertical-align:top}
+.blog-subscribe-form{font-family:Helvetica,"Helvetica Neue",Arial,sans-serif;background:#0083BB;padding:30px 40px;margin-bottom:30px}
+.blog-subscribe-form h4{color:white;font-size:18px;text-align:center}
+.blog-subscribe-form input[type=text]{border:none}
+.blog-subscribe-form input.btn{color:white;border:1px solid white}
+.blog-subscribe-form form{margin-bottom:10px}
+.blog-subscribe-form .alert{padding:0;margin:0;border:none;background:transparent;color:white;text-align:center}
+html.gecko .social-share-buttons div.fb-like{margin-top:-3px}
+a {
+    text-decoration: none;
+
+}
